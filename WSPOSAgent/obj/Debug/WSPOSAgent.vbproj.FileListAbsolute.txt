@@ -1,0 +1,14 @@
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\bin\Debug\WSPOSAgent.exe.config
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\bin\Debug\WSPOSAgent.exe.manifest
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\bin\Debug\WSPOSAgent.application
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\bin\Debug\WSPOSAgent.exe
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\bin\Debug\WSPOSAgent.pdb
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\bin\Debug\WSPOSAgent.xml
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.Form1.resources
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.Resources.resources
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.vbproj.GenerateResource.Cache
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.exe.manifest
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.application
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.exe
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.xml
+D:\Project Megatama\Abdi Karya\Abdi Karya Document POS\WSPOSAgent\WSPOSAgent\obj\Debug\WSPOSAgent.pdb

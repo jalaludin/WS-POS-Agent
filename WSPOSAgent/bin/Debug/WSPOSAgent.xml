@@ -1,0 +1,362 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WSPOSAgent
+</name>
+</assembly>
+<members>
+<member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.#ctor">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadByRecIdCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadMultipleCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.IsUpdatedCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.GetRecIdFromKeyCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateMultipleCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateMultipleCompleted">
+	<remarks/>
+</member><member name="E:WSPOSAgent.WSNAVHistSales.HistSales_Service.DeleteCompleted">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.Read(System.String,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadAsync(System.String,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadAsync(System.String,System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadByRecId(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadByRecIdAsync(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadByRecIdAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadMultiple(WSPOSAgent.WSNAVHistSales.HistSales_Filter[],System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadMultipleAsync(WSPOSAgent.WSNAVHistSales.HistSales_Filter[],System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.ReadMultipleAsync(WSPOSAgent.WSNAVHistSales.HistSales_Filter[],System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.IsUpdated(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.IsUpdatedAsync(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.IsUpdatedAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.GetRecIdFromKey(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.GetRecIdFromKeyAsync(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.GetRecIdFromKeyAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.Create(WSPOSAgent.WSNAVHistSales.HistSales@)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateAsync(WSPOSAgent.WSNAVHistSales.HistSales)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateAsync(WSPOSAgent.WSNAVHistSales.HistSales,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateMultiple(WSPOSAgent.WSNAVHistSales.HistSales[]@)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateMultipleAsync(WSPOSAgent.WSNAVHistSales.HistSales[])">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.CreateMultipleAsync(WSPOSAgent.WSNAVHistSales.HistSales[],System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.Update(WSPOSAgent.WSNAVHistSales.HistSales@)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateAsync(WSPOSAgent.WSNAVHistSales.HistSales)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateAsync(WSPOSAgent.WSNAVHistSales.HistSales,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateMultiple(WSPOSAgent.WSNAVHistSales.HistSales[]@)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateMultipleAsync(WSPOSAgent.WSNAVHistSales.HistSales[])">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.UpdateMultipleAsync(WSPOSAgent.WSNAVHistSales.HistSales[],System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.Delete(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.DeleteAsync(System.String)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.DeleteAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:WSPOSAgent.WSNAVHistSales.HistSales_Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.HistSales_Service">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Key">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Document_Type">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Document_TypeSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Document_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Document_Date">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Document_DateSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Posting_Date">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Posting_DateSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Sell_to_Customer_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Location_Code">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Currency_Code">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Line_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Line_NoSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Item_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Bar_Code">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Quantity">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.QuantitySpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Unit_of_Measure_Code">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Unit_Price">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Unit_PriceSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Line_Disc_Percent">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Line_Disc_PercentSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Line_Disc_Amt">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Line_Disc_AmtSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Amount">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.AmountSpecified">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Payment_Method_Code">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Payment_Type">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Payment_Name">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Card_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Reference_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.External_Document_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Posted_Document_No">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Note">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.Posted">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales.PostedSpecified">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.HistSales">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.Document_Type.Invoice">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.Document_Type.Payment">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.Document_Type.Credit_Memo">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.Document_Type">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales_Filter.Field">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.HistSales_Filter.Criteria">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.HistSales_Filter">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Document_Type">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Document_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Document_Date">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Posting_Date">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Sell_to_Customer_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Location_Code">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Currency_Code">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Line_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Item_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Bar_Code">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Quantity">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Unit_of_Measure_Code">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Unit_Price">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Line_Disc_Percent">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Line_Disc_Amt">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Amount">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Payment_Method_Code">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Payment_Type">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Payment_Name">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Card_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Reference_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.External_Document_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Posted_Document_No">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Note">
+	<remarks/>
+</member><member name="F:WSPOSAgent.WSNAVHistSales.HistSales_Fields.Posted">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.HistSales_Fields">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.ReadCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.ReadCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.ReadCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.ReadByRecIdCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.ReadByRecIdCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.ReadByRecIdCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.ReadMultipleCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.ReadMultipleCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.ReadMultipleCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.IsUpdatedCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.IsUpdatedCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.IsUpdatedCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.GetRecIdFromKeyCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.GetRecIdFromKeyCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.GetRecIdFromKeyCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.CreateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.CreateCompletedEventArgs.HistSales">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.CreateCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.CreateMultipleCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.CreateMultipleCompletedEventArgs.HistSales_List">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.CreateMultipleCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.UpdateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.UpdateCompletedEventArgs.HistSales">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.UpdateCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.UpdateMultipleCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.UpdateMultipleCompletedEventArgs.HistSales_List">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.UpdateMultipleCompletedEventArgs">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.DeleteCompletedEventHandler">
+	<remarks/>
+</member><member name="P:WSPOSAgent.WSNAVHistSales.DeleteCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:WSPOSAgent.WSNAVHistSales.DeleteCompletedEventArgs">
+	<remarks/>
+</member><member name="P:WSPOSAgent.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WSPOSAgent.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WSPOSAgent.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSet._ABDI_JAYA_History_SalesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSet._ABDI_JAYA_History_SalesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSet._ABDI_JAYA_History_SalesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSetTableAdapters.ABDI_JAYA_History_SalesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WSPOSAgent.Abdi_JayaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WSPOSAgent.Abdi_JayaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WSPOSAgent.Abdi_JayaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.UpdateAll(WSPOSAgent.Abdi_JayaDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:WSPOSAgent.Abdi_JayaDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,15 @@
+bin\Debug\WSPOSAgent.exe.config
+bin\Debug\WSPOSAgent.exe.manifest
+bin\Debug\WSPOSAgent.application
+bin\Debug\WSPOSAgent.exe
+bin\Debug\WSPOSAgent.pdb
+bin\Debug\WSPOSAgent.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WSPOSAgent.Form1.resources
+obj\Debug\WSPOSAgent.Resources.resources
+obj\Debug\WSPOSAgent.vbproj.GenerateResource.Cache
+obj\Debug\WSPOSAgent.exe.manifest
+obj\Debug\WSPOSAgent.application
+obj\Debug\WSPOSAgent.exe
+obj\Debug\WSPOSAgent.xml
+obj\Debug\WSPOSAgent.pdb

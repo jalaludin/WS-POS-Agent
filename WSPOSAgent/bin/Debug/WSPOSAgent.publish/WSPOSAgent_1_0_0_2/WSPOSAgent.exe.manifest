@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="WSPOSAgent.exe" version="1.0.0.2" publicKeyToken="ae0e10d1c6ea58e1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WSPOSAgent" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WSPOSAgent.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WSPOSAgent.exe" size="217088">
+      <assemblyIdentity name="WSPOSAgent" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6GEZr+7y4A3KUZkhvtnhGfXPYCI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WSPOSAgent.exe.config" size="2126">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7TZmG50j6tQO9k9rRrtV+KC+B4E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DEVEL\develop" issuerKeyHash="68fbcc68dfe037ef703a39ef5fb21057b442f78b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mQpa7Q0QcdE39XwfW1jlM9GgjGc=</DigestValue></Reference></SignedInfo><SignatureValue>QwcvJW/LsvH/Xhe6S5WBtrsO2D9amEYloJVVK5oebtoXW2ms+zSC1lU28GpdrDBw4q9ENIHs7Kt5BuibWaP5kpdNtXFDOsBH53r6PcOEMkUGvHx40tP4JdSSkhhCfRoYr1rVSdyUDpnvRtNUXM1FxGcpODeb4r2XQR/MBJndodI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>voltWPuNRLb1ekU5J2kiq65zS8zAObgpoiXyPGZvstzEQcOBHh7f8lR33sKwFU1Ae5L0PQe1UifA1CKaBipcgBoUUCok/AaMeMd9q5EhWirpVQvbWxl6+iYpGnGMFiPo/dOPBX0e45DTXMvQVQPMWfTrLoumuO8XC0oZXDIgRV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="678ca0d133e5585b1f7cf537d171100ded5a0a99" Description="" Url=""><as:assemblyIdentity name="WSPOSAgent.exe" version="1.0.0.2" publicKeyToken="ae0e10d1c6ea58e1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DEVEL\develop</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tPUMmtaT/i54VTqjtGVLKkg4u8U=</DigestValue></Reference></SignedInfo><SignatureValue>dQC1z9h+njnDm/C1/D5C0VAdnXC7ZeOPLW1aMOa3fMX9KvpPThZWmNchVKqPCDgZymlQNmOmWzal6NwMMnhp+WS7rD/NZjYgLLj20MipzrRc83QIpZ3JOFsK7IGLv94nNTJ2rO9ap/zDOMO3ZhxXZeIJQGq7alcl8qDujaaaFI8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>voltWPuNRLb1ekU5J2kiq65zS8zAObgpoiXyPGZvstzEQcOBHh7f8lR33sKwFU1Ae5L0PQe1UifA1CKaBipcgBoUUCok/AaMeMd9q5EhWirpVQvbWxl6+iYpGnGMFiPo/dOPBX0e45DTXMvQVQPMWfTrLoumuO8XC0oZXDIgRV0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCATKgAwIBAgIQKOkQqHenV7ZDTSr5WmXY9DAJBgUrDgMCHQUAMCUxIzAhBgNVBAMeGgBEAEUAVgBFAEwAXABkAGUAdgBlAGwAbwBwMB4XDTE0MTAwMTEwMzExOVoXDTE1MTAwMTE2MzExOVowJTEjMCEGA1UEAx4aAEQARQBWAEUATABcAGQAZQB2AGUAbABvAHAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL6JbVj7jUS29XpFOSdpIquuc0vMwDm4KaIl8jxmb7LcxEHDgR4e3/JUd97CsBVNQHuS9D0HtVInwNQimgYqXIAaFFAqJPwGjHjHfauRIVoq6VUL21sZevomKRpxjBYj6P3TjwV9HuOQ01zL0FUDzFn06y6LprjvFwtKGVwyIEVdAgMBAAEwCQYFKw4DAh0FAAOBgQAdhNW0EBIYZ9JD9oTuLjuyg5/llClku7KxUoXZfzyS5jO3+r9w75va2CA7I/03vnRHJTnnIP5+CbRwRr+fPePp/wes18attaQtKtRm5+SZq3rlkS2UOT84uFijaZs3/gBf1Zj2iQ0b4l+Wz+V9lPET/lzFjsRRE7zgcPXNjCqHgg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
